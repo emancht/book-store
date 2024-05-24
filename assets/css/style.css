@@ -73,7 +73,7 @@ a {
   background: url('../img/bg-1.svg') no-repeat center center/cover;
 }
 #hero-area .search-area {
-  width: 480px;
+  width: 420px;
   position: relative;
 }
 #hero-area input[type='search'] {
@@ -137,7 +137,7 @@ a {
   background: url('../img/bg-5.svg') no-repeat center center/cover;
 }
 #newsletter .subscribe {
-  width: 360px;
+  width: 420px;
   position: relative;
 }
 
@@ -159,4 +159,10 @@ a {
 }
 #footer-area {
   background: var(--bg-color);
+}
+
+@media (max-width: 768px) {
+  #offer {
+    margin-top: 0;
+  }
 }

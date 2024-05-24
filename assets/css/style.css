@@ -84,7 +84,7 @@ a {
   border: 0;
 }
 #hero-area input[type='search']:focus {
-  outline: 1px solid var(--secondary-color);
+  outline: 2px solid var(--primary-color);
 }
 #hero-area .search-area .bi-search {
   position: absolute;
@@ -137,7 +137,7 @@ a {
   background: url('../img/bg-5.svg') no-repeat center center/cover;
 }
 #newsletter .subscribe {
-  width: 420px;
+  width: 360px;
   position: relative;
 }
 
@@ -149,12 +149,12 @@ a {
   border: 0;
 }
 #newsletter .subscribe input[type='email']:focus {
-  outline: 1px solid var(--primary-color);
+  outline: 2px solid var(--primary-color);
 }
 
 #newsletter .primary-btn {
   position: absolute;
-  top: 5px;
+  top: 7px;
   right: 6px;
 }
 #footer-area {
